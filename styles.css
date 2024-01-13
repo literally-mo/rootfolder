@@ -9,9 +9,9 @@
 
 li, a, button {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgb(175, 197, 197);
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(232, 241, 241);
     text-decoration: none;
     
 }
@@ -33,15 +33,18 @@ header {
  
 .nav-links li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .nav-links li a {
     transition: all 0.3s ease 0;
+    padding: 10px 10px 9px ;
 }
 
 .nav-links li a:hover {
     color: blue;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 
 button {
@@ -58,4 +61,44 @@ button:hover {
     background-color: rgb(240, 255, 255, 0.8);
 }
 
+.intro-section {
+    height: 300px;
+    width: 80%;
+    margin: auto 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
 
+.intro {
+    background-color: aquamarine;
+    margin-left: 50px;
+    height: 80%;
+    width: 50%;
+    text-align: justify;
+}
+
+.intro-name {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(0, 2, 2);
+    text-decoration: none;
+    
+}
+
+.cv-download {
+    background-color: aquamarine;
+    align-self: center;
+    margin: 30px 20px;
+    
+}
+.profile-image {
+    height: 100px;
+    width: 50px;
+    margin: auto;
+}
