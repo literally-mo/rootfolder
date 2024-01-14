@@ -38,13 +38,14 @@ header {
 
 .nav-links li a {
     transition: all 0.3s ease 0;
-    padding: 10px 10px 9px ;
+    padding: 9px 20px 9px ;
 }
 
 .nav-links li a:hover {
     color: blue;
     background-color: aliceblue;
-    border-radius: 30px;
+    border-radius: 10px;
+    
 }
 
 button {
@@ -59,8 +60,12 @@ button {
 
 button:hover {
     background-color: rgb(240, 255, 255, 0.8);
+    
 }
 
+.Contact button {
+    border-top-right-radius: 0px;
+}
 .intro-section {
     height: 300px;
     width: 80%;
@@ -78,7 +83,7 @@ button:hover {
     margin-left: 10px;
     height: 80%;
     width: 50%;
-    display: flex;
+    display: inline-grid;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -104,10 +109,13 @@ button:hover {
 .cv-download {
     background-color: aquamarine;
     float: left;
-    margin-left: 10px;
     display: flex;
     margin-top: 20px;
-    
+}
+
+.cv-download button {
+    width: 100%;
+    border-top-right-radius: 0;
 }
 
 .image-container {
@@ -125,8 +133,8 @@ button:hover {
     object-fit: contain;
     object-position: center;
     border-radius: 60px;
-    overflow: hidden
-    transition: transform 0.4s ease-in-out
+    overflow: hidden;
+    transition: transform 0.4s ease-in-out;
 }
 .image-container img:hover {
     transform: scale(1.2);
