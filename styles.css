@@ -192,7 +192,7 @@ button:hover {
 }
 
 .project-box {
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226, 1);
     height: 90%;
     width: 20%;
     border-radius: 10px;
@@ -200,9 +200,12 @@ button:hover {
     align-items: center;
 }
 
+
+
 .project-box p {
     background-color: blueviolet;
 }
+
 
 .client-box {
     background-color: hsl(27, 76%, 53%);
@@ -215,4 +218,32 @@ button:hover {
 
 .client-box p {
     background-color: hsl(27, 76%, 53%);
+}
+
+.section-3 {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container2 {
+    width: 40%;
+    height: 80%;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    margin-left: 40px;
+}
+.image-container2 img {
+    width: 100%;
+    height: 100%;  
+    object-fit: contain;
+    object-position: center;
+    border-radius: 60px;
+    overflow: visible;
+    transition: transform 0.4s ease-in-out;
+    background-color: aliceblue;
 }
