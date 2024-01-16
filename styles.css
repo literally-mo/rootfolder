@@ -4,13 +4,13 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: rgb(23, 23, 77);
+    background-color: #0f1322;
 }
 
 li, a, button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 18px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
     color: rgb(232, 241, 241);
     text-decoration: none;
     
@@ -42,16 +42,16 @@ header {
 }
 
 .nav-links li a:hover {
-    color: blue;
-    background-color: aliceblue;
+    color: rgb(15, 19, 34);
+    background-color: rgb(132, 198, 210);
     border-radius: 10px;
     
 }
 
 button {
     padding: 10px 25px 9px ;
-    background-color: rgb(240, 255, 255, 1);
-    color: blue;
+    background-color: rgb(236, 238, 129);
+    color: #0f1322;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -59,27 +59,26 @@ button {
 }
 
 button:hover {
-    background-color: rgb(240, 255, 255, 0.8);
-    
+    background-color: rgb(236, 238, 129, 0.7);
 }
 
 .Contact button {
     border-top-right-radius: 0px;
 }
 .intro-section {
-    height: 300px;
+    height: 500px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: rgb(132, 198, 210);
     border-radius: 20px;
 }
 
 .intro {
-    background-color: aquamarine;
+    background-color: #85c7d2;
     margin-left: 10px;
     height: 80%;
     width: 50%;
@@ -91,13 +90,13 @@ button:hover {
 }
 
 .intro-name {
-    background-color: aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 30px;
+    background-color: #85c7d2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3rem;
     color: rgb(0, 2, 2);
     text-decoration: none;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .intro a {
@@ -107,14 +106,15 @@ button:hover {
 }
 
 .cv-download {
-    background-color: aquamarine;
+    background-color: #85c7d2;
     float: left;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .cv-download button {
-    width: 100%;
+    width: 100%; 
+    padding: 5px auto;
     border-top-right-radius: 0;
 }
 
@@ -122,20 +122,21 @@ button:hover {
     width: 30%;
     height: 80%;
     margin: auto;
-    border-radius: 100px;
+    border-radius: 200px;
     text-align: center;
     position: relative;
+    background-color: rgb(236, 238, 129);
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 100%;  
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
-    border-radius: 60px;
+    border-radius: 200px;
     overflow: hidden;
     transition: transform 0.4s ease-in-out;
-    background-color: aliceblue;
+    background-color: rgb(236, 238, 129, -6);
 }
 .image-container img:hover {
     transform: scale(1.2);
@@ -145,6 +146,7 @@ button:hover {
     height: 200px;
     width: 80%;
     margin: auto;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -161,12 +163,12 @@ button:hover {
 }
 
 .prof-exp h3 {
-    font-size: 4rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-family: 'Signika', sans-serif;
     font-weight: 800;
     color: whitesmoke;
     line-height: 1.3;
-    font-stretch: extra-expanded;
+    letter-spacing: 4px;
     flex-wrap: wrap ;
     margin-left: 30px;
 }
@@ -179,20 +181,20 @@ button:hover {
 }
 .section-2 div a p {
     color: rgb(23, 23, 77);
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin: auto;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Signika', sans-serif;
     font-weight: 700;
     line-height: 1.5;
 }
 
 .section-2 div a .p-no {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 .project-box {
-    background-color: rgb(138, 43, 226, 1);
+    background-color: rgb(236, 193, 164);
     height: 90%;
     width: 20%;
     border-radius: 10px;
@@ -203,12 +205,22 @@ button:hover {
 
 
 .project-box p {
-    background-color: blueviolet;
+    background-color: rgb(236, 193, 164);
 }
 
 
+.project-box:hover {
+    background-color: rgb(236, 193, 164, 0.8)
+}
+
+.project-box:hover p {
+    background-color: rgb(236, 193, 164, 0.8)
+}
+
+
+
 .client-box {
-    background-color: hsl(27, 76%, 53%);
+    background-color: rgb(184, 191, 255);
     height: 90%;
     width: 20%;
     border-radius: 10px;
@@ -217,7 +229,15 @@ button:hover {
 }
 
 .client-box p {
-    background-color: hsl(27, 76%, 53%);
+    background-color: rgb(184, 191, 255);
+}
+
+.client-box:hover {
+    background-color: rgb(184, 191, 255, 0.8);
+}
+
+.client-box:hover p{
+    background-color: rgb(184, 191, 255, 0.8);
 }
 
 .section-3 {
@@ -246,4 +266,42 @@ button:hover {
     overflow: visible;
     transition: transform 0.4s ease-in-out;
     background-color: aliceblue;
+}
+
+.about-me {
+    height: 80%;
+    width: 50%;
+}
+
+.about-me h3 {
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2;
+}
+
+.about-me div {
+    height: 15%;
+    width: 100%;
+    background-color: #85c7d2;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 10px;
+}
+
+.about-me div a {
+    background-color: #85c7d2;
+    font-size: 1.5rem;
+    color: blue;
+    border-radius: 20px;
+    line-height: 1.3;
+    margin-left: 30px;
+    display: block ;
+}
+
+.exp:hover {
+    font-style: italic;
+    text-decoration: underline;
 }
