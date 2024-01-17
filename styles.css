@@ -82,7 +82,7 @@ button:hover {
 
 .intro {
     background-color: #85c7d2;
-    margin-left: 10px;
+    margin-left: 35px;
     height: 80%;
     width: 50%;
     display: inline-grid;
@@ -138,9 +138,9 @@ button:hover {
 }
 
 .image-container img {
-    max-width: 90%;
+    max-width: 100%;
     max-height: 100%;  
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     border-radius: 200px;
     overflow: hidden;
@@ -235,6 +235,7 @@ button:hover {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .client-box p {
@@ -250,7 +251,7 @@ button:hover {
 }
 
 .section-3 {
-    height: 400px;
+    height: 430px;
     width: 80%;
     margin: auto;
     display: flex;
@@ -259,22 +260,27 @@ button:hover {
 }
 
 .image-container2 {
-    width: 40%;
-    height: 80%;
+    width: 35%;
+    height: 90%;
     border-radius: 100px;
     text-align: center;
     position: relative;
-    margin-left: 40px;
+    margin-left: 60px;
+    background-color: rgb(132, 198, 210);
+    object-position: center;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 .image-container2 img {
-    width: 100%;
-    height: 100%;  
+    width: 70%;
+    height: 90%;  
     object-fit: contain;
     object-position: center;
-    border-radius: 60px;
-    overflow: visible;
+    border-radius: 200px;
+    margin-top: 20px;
+    overflow: hidden;
     transition: transform 0.4s ease-in-out;
-    background-color: aliceblue;
+    background-color: rgb(236, 238, 129);
 }
 
 .about-me {
@@ -285,32 +291,39 @@ button:hover {
 .about-me h3 {
     color: aliceblue;
     font-size: 2.5rem;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
+    letter-spacing: 2px;
 }
 
 .about-me div {
-    height: 15%;
-    width: 100%;
+    height: 20%;
+    width: 90%;
     background-color: #85c7d2;
     border-radius: 10px;
     margin: 25px;
     padding: 10px;
+    transition: transform 0.4s ease-in-out;
 }
 
 .about-me div a {
-    background-color: #85c7d2;
+    font-family: 'Signika', sans-serif;
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(0, 2, 2);
     border-radius: 20px;
-    line-height: 1.3;
+    line-height: 1.1;
     margin-left: 30px;
-    display: block ;
+    display:block ;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
-.exp:hover {
-    font-style: italic;
-    text-decoration: underline;
+.exp-box a {
+    background-color: rgb(133, 199, 210);
+}
+
+.exp-box:hover {
+    transform: scale(1.05);
 }
