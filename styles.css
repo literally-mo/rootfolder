@@ -330,11 +330,21 @@ button:hover {
 }
 
 div.link-box {
-    background-color: #0f1322;
+    background-color: rgb(15, 19, 34);
+    display: flex;
+    justify-content: flex-start;
+
 }
 .link-box p {
     font-family: 'Signika', sans-serif;
     color: rgb(231, 234, 235);
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+}
+
+div.link-box a {
+    height: 48px;
+    width: 48px;
+    text-align: center;
+    justify-content: center;
 }
